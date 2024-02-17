@@ -6,7 +6,7 @@ export default createBoard({
     Board: () => (
         <div>
             <input />
-            <button>Button</button>
+            <button onClick={undefined}>Button</button>
         </div>
     ),
     environmentProps: {
