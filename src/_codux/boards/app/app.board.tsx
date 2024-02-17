@@ -3,5 +3,13 @@ import App from '../../../App';
 
 export default createBoard({
     name: 'App',
-    Board: () => <App />,
+    Board: () => (
+        <div>
+            <input />
+            <button>Button</button>
+        </div>
+    ),
+    environmentProps: {
+        canvasHeight: 565,
+    },
 });
